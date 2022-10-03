@@ -6,6 +6,7 @@
 package main;
 
 import views.Home;
+import views.Login;
 
 /**
  *
@@ -38,6 +39,6 @@ public class Main {
         //</editor-fold>
         //</editor-fold>
         
-        new Home();
+        new Login();
     }
 }
