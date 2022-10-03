@@ -9,9 +9,11 @@ package com.labpoo.ufmsoverflow.models;
  *
  * @author xande
  */
-public abstract class Usuario {
-    public String email;
-    public String senha;
+public class Aluno extends Usuario{
+
+    @Override
+    public void login() {
+        
+    }
     
-    public abstract void login();
 }
